@@ -4,6 +4,8 @@ using namespace std;
 int main(){
 
 
+    cout<<"hello world";
+
     int age = 21;
     char name = 'T';
     float PI =3.14f;
