@@ -26,8 +26,10 @@ int main(){
     //TYPE CASTING EXPLICIT(BDE SE CHOTA)
 
     double price = 100.32;
+
     int newPrice=(int)price;
     cout << newPrice;
+        cout<<"\n";
  
         //INPUT AND OUTPUT
 
@@ -35,5 +37,23 @@ int main(){
         cout << "Enter your age : ";
         cin>>age;
         cout <<"Your age is " << age <<endl;
+
+        int num1;
+        int num2;
+
+        cout<< "Enter Number 1:-";
+        cin>>num1;
+        cout<< "Enter Number 2:-";
+        cin>>num2;
+
+        cout<< "sum:- " << (num1+(float)num2);
+        cout<<"\n";
+        cout<< "sub:- " << (num1-(float)num2);
+         cout<<"\n";
+        cout<< "mul:- " << (num1*(float)num2);
+         cout<<"\n";
+        cout<< "div:- " << (num1/(float)num2);
+         cout<<"\n";
+        cout<< "modulus:- " << (num1%num2);
     return 0;
 }
