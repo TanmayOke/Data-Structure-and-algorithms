@@ -117,5 +117,25 @@ for(int i=0;i<n;i++){
     cout<<endl;
 }
 
+//======Reverse pattern=====//
+for(int i =0;i<n;i++){
+    for(int j=i+1;j>0;j--){
+        cout<<j<<" ";
+    }   
+    cout<<endl;
+}
+
+
+
+//=======  PROBLEM 10 ================//
+  int num1=1;
+for(int i=0;i<n;i++){
+  
+    for(int j=i+1;j>0;j--){
+        cout<<num1<<" ";
+        num1++;
+    }
+    cout<<endl;
+}
 return 0;
 }
