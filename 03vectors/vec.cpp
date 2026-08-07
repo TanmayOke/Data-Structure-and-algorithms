@@ -63,7 +63,8 @@ int main(){
     cout<<"\n First element: "<<name.front();
     cout<<"\n Last element: "<<name.back();
     cout<<"\n Size of vector: "<<name.size();   
-
+cout<<"\n Size of vector: "<<name.size();   
+ 
     cout<<"\n";
     vector<int> nums = {1,2,3,4,5,6,7,8,9};
     cout<<lsvector(nums,5)<<endl;
